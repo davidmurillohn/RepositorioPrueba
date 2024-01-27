@@ -5,3 +5,47 @@ format: html
 ---
 
 # Mi primera pagina github
+
+::: panel-tabset
+
+## Ejercicio 1
+
+filtar base de datos
+
+```{r}
+library(tidyverse)
+```
+Filtrado y limpieza de datos
+```{r}
+library(palmerpenguins)
+data("penguins")
+
+head(penguins)
+```
+
+
+## Ejercicio 2
+
+```{r}
+library(vegan)
+data(dune)
+data(dune.env)
+```
+
+
+```{r}
+AvesHabitat <- cbind(dune.env, dune)
+head(AvesHabitat)
+```
+
+
+## Ejercicio 3
+
+Aqui coloco mi codigo para el ejercicio tres
+```{r}
+2+2
+```
+
+## Cuarta ventana
+
+:::
